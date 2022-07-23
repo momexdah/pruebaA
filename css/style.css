@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    font-family: Oswald, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+/*Header*/
+.header{
+    padding: 10px;
+}
+.header div {
+    margin: 0;
+}
+
+.header div header h1{
+    padding: 100px 20px 20px;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20210422/pngtree-abstract-white-glitter-navy-blue-background-image_633074.jpg");
+    border-radius: 10px;
+}
+
+/*Nav*/
+.nav{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+
+.nav div nav ul li {
+    display: inline-block;
+    justify-content: center;
+    align-content: space-between;
+    list-style: none;
+    margin: 15px;
+
+}
+.nav div nav ul li a{
+    text-decoration: none;
+    align-content: space-between;
+    background: black;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+}
+/*
+.presupuesto div{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+.presupuesto div .left{
+    width: 45%;
+    float: left;
+    border: 1px solid black;
+}
+.presupuesto div .left .accordion{
+    width: 90%;
+}
+
+.presupuesto div .right{
+    width: 40%;
+    height: auto;
+    float: right;
+    transform: translateX(-25%);
+    border: 1px solid black;
+    scroll-margin-inline-end: 10px;
+}
+ */
+
+
+/*Hero*/
+
+.hero .container{
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.hero .container .row div{
+    margin: 15px;
+    padding: 20px;
+}
+
+.hero .container .row div img{
+    width: 300px;
+    height: 200px;
+}
+
+.foot{
+    margin-block-start: auto;
+}
+
+.container .consecionario .container .row div .content{
+    border: 1px solid black;
+    margin-inline-end: 30px;
+    width: 100%;
+    padding: 20px;
+    height: 450px;
+    margin: 0 5px 10px 5px;
+    transform: translateX(-10%);
+
+}
+
+.container .consecionario .container .row div .content .left{
+    margin-inline-start: 20px;
+}
